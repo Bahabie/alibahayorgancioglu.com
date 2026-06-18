@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Baha Yorgancıoğlu | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+
+    <nav>
+        <a href ="#" class="logo">ALİ BAHA YORGANCIOĞLU</a>  
+        <div class="nav-right">
+            <div class="links">
+                <a href="#about" data-lang="nav-about">About</a>
+                <a href="#work" data-lang="nav-work">Work</a>
+                <a href="#contact" data-lang="nav-contact">Contact</a>
+            </div>
+            <div class="controls">
+                <button id="theme-switch" class="control-btn">☀</button>
+                <button id="lang-switch" class="control-btn">TR</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>
+            <span data-lang="hero-line1">Software</span>
+            <span data-lang="hero-line2">Developer</span>
+        </h1>
+        <p class="subtitle" data-lang="hero-sub">Web Design and Coding student at Atatürk University. Building Modern, responsive and user friendly websites.</p>
+        <p class="hero-meta" data-lang="hero-meta">BASED IN TURKEY</p>
+        </header>
+
+        <section id="about" class="projects-section">
+        <div class="about-inner">
+            <h2 class="section-title reveal" data-lang="about-title">About</h2>
+            <p class="about-lead reveal" data-lang="about-lead">I design and build interfaces that are clear, fast and enjoyable to use. I vary care about typography, motion and the small details.</p>
+            <p class="avout-body reveal" data-lang="about-body">When I'm not coding, I'm learning new tools or exploring design systems. Open to freelance and full time opportunities.</p>
+            <div class="skills reveal">
+                <span class="skills-label" data-lang="skills-label">I work with</span>
+                <div class="skills-pills">
+                    <span>Python</span><span>JavaScript</span><span>TypeScript</span><span>HTML</span><span>CSS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="projects-section">
+        <h2 class="section-title reveal" data-lang="section-work">Projects</h2>
+        <p class="section-intro reveal" data-lang="section-intro">A selection of projects I've worked on.</p>
+
+        <div class="projects-grid">
+            <button class="project-card reveal" data-project-id="orion" style="--delay: 0">
+                <div class="project-card-content">
+                    <span class="project-card-year">2026</span>
+                    <h3 class="project-card-title">Orion One</h3>
+                    <p class="project-card-desc" data-lang="proj-1-desc">High-performance Enterprise AI & Cloud Intelligence Hub featuring real-time telemetry.</p>
+                    <div class="card-footer">
+                        <span class="project-card-tags">JavaScript · TypeScript</span>
+                        <span class="project-card-link"><span data-lang="view-project">View project →</span></span>
+                    </div>
+                </div>
+    </section>
+
+    <footer id="contact" class="contact">
+        <div class="contact-inner">
+            <p class="contact-label reveal" data-lang="contact-label">Get in touch</p>
+            <a href="mailto:alibahabys@gmail.com" class="contact-email reveal">alibahabys@gmail.com</a>
+            <div class="contact-divider reveal"></div>
+            <nav class="contact-links">
+                <a href="https://www.linkedin.com/in/ali-baha-yorgancioglu/" target="_blank" rel="noopener" class="reveal">LinkedIn</a>
+                <a href="https://github.com/Bahabie" target="_blank" rel="noopener" class="reveal">GitHub</a>
+            </nav>
+            <p class="copyright reveal">&copy; 2026 Ali Baha Yorgancıoğlu</p>
+        </div>
+    </footer>
+
+    <!-- project modal -->
+     <div id="project-modal" class="project-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">x</button>
+            <div class="modal-inner">
+                <div class="modal-images">
+                    <div class="image-gallery">
+                        <img id="modal-featured-image" src="" alt="Project screenshot" class="featured-image">
+                    </div>
+                </div>
+                <div class="modal-info">
+                    <h2 id="modal-title" class="modal-title"></h2>
+                    <p id="modal-description" class="modal-description"></p>
+                    <div class="modal-tags" id="modal-tags"></div>
+                    <a id="modal-link" href="" target="_blank" rel="noopener" class="modal-github-btn">View on GitHub →</a>
+                </div>
+            </div>
+     </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
