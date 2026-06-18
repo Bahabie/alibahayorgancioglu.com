@@ -122,7 +122,7 @@ const translations = {
         "about-title": "Hakkımda",
         "about-lead": "Net, hızlı ve kullanımı keyifli arayüzler tasarlayıp kodluyorum. Tipografi, hareket ve küçük detaylara çok önem veriyorum.",
         "about-body": "Kod yazmıyorken yeni araçlar öğreniyor veya tasarım sistemlerini keşfediyorım. Freelance ve tam zamanlı fırsatlara açığım.",
-        "skills-label": "Kullandığım Teknolojiler",
+        "skills-label": "Kullandığım TEKNOLOJİLER",
         "section-intro": "Üzerinde çalıştığım projelerim.",
     }
 };
