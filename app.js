@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //lenis scroll 
 if (typeof Lenis !== 'undefined' ) {
     lenisInstance = new Lenis({
-        duration:2.5,
+        duration:1.5,
         easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
         direction: 'vertical',
         smooth: true,
@@ -43,7 +43,7 @@ if (!target) return;
 if (lenisInstance) {
     lenisInstance.scrollTo(target, {
         offset: 0,
-        duration: 3.2,
+        duration: 1.8,
         easing: (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2),
         lock: false
     });
@@ -95,14 +95,14 @@ const translations = {
         "hero-line2": "Developer",
         "hero-sub": "Web Design and Coding student at Atatürk University. Building modern, responsive and user friendly websites.",
         "section-work": "Projects",
-        "proj-1-desc": "High performance Enterprise AI & Cloud Intelligence Hub featuring real time telemetry.",
+        "proj-1-desc": "High performance Enterprise Cloud Intelligence Hub featuring real time telemetry.",
         "view-project": "View project →",
         "contact-label": "Get in touch",
         "hero-meta": "BASED IN TURKEY",
         "scroll-hint": "Scroll",
         "about-title": "About",
         "about-lead": "I design and build interfaces that are clear, fast, and enjoyable to use. I very care about typography, motion, and the small details.",
-        "about-body": "When I'm not coding, I'm learning new tools or exploring design systems. Open to freelance and full time opportunities.",
+        "about-body": "Open to freelance and full time opportunities.",
         "skills-label": "I work with",
         "section-intro": "A selection of projects I've worked on.",
     },
@@ -114,14 +114,14 @@ const translations = {
         "hero-line2": "Geliştirici",
         "hero-sub": "Atatürk Üniversitesi Web Tasarım ve Kodlama öğrencisi. Modern, duyarlı ve kullanıcı dostu web siteleri tasarlıyorum.",
         "section-work": "Projeler",
-        "proj-1-desc": "Gerçek zamanlı telemetri ve CI/CD takibi sunan, yüksek performanslı kurumsal Yapay Zeka merkezi.",
+        "proj-1-desc": "Gerçek zamanlı telemetri ve yüksek performanslı kurumsal veri merkezi.",
         "view-project": "Projeyi gör →",
         "contact-label": "İLETİŞİM",
         "hero-meta": "TÜRKİYE MERKEZLİ",
         "scroll-hint": "Aşağı kaydır",
         "about-title": "Hakkımda",
         "about-lead": "Net, hızlı ve kullanımı keyifli arayüzler tasarlayıp kodluyorum. Tipografi, hareket ve küçük detaylara çok önem veriyorum.",
-        "about-body": "Kod yazmıyorken yeni araçlar öğreniyor veya tasarım sistemlerini keşfediyorım. Freelance ve tam zamanlı fırsatlara açığım.",
+        "about-body": "Freelance ve tam zamanlı fırsatlara açığım.",
         "skills-label": "Kullandığım TEKNOLOJİLER",
         "section-intro": "Üzerinde çalıştığım projelerim.",
     }
