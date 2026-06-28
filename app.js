@@ -43,7 +43,7 @@ if (!target) return;
 if (lenisInstance) {
     lenisInstance.scrollTo(target, {
         offset: 0,
-        duration: 1,
+        duration: 0.5,
         easing: (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2),
         lock: false
     });
