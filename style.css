@@ -51,7 +51,35 @@ nav:not(.contact-links) {
     top: 0;
     z-index: 100;
     background: transparent;
+}
+
+nav:not(.contact-links)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 175%; 
+    z-index: -1;
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    /* noise effect details */ 
+    mask-image: linear-gradient(to bottom, 
+        rgba(0, 0, 0, 1) 0%,      
+        rgba(0, 0, 0, 1) 30%,     
+        rgba(0, 0, 0, 0.7) 55%,   
+        rgba(0, 0, 0, 0.2) 80%,   
+        rgba(0, 0, 0, 0) 100%     
+    );
+    -webkit-mask-image: linear-gradient(to bottom, 
+        rgba(0, 0, 0, 1) 0%, 
+        rgba(0, 0, 0, 1) 30%, 
+        rgba(0, 0, 0, 0.7) 55%, 
+        rgba(0, 0, 0, 0.2) 80%, 
+        rgba(0, 0, 0, 0) 100%
+    );
+    
+    pointer-events: none;
 }
 
 .nav-right {
@@ -154,7 +182,7 @@ h1 span {
 }
 
 .about-inner {
-    max-width: 640px;
+    max-width: 100%;
 }
 
 .about-section .section-title {
