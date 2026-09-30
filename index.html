@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ali Baha Yorgancıoğlu | Software Developer</title>
+    <meta name="description" content="Personal portfolio of Ali Baha Yorgancıoğlu, Software Developer specializing in Next.js, Python FastAPI, Supabase, and PostgreSQL.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,63 +14,209 @@
     <div class="noise"></div>
 
     <nav>
-        <a href ="#" class="logo">ALİ BAHA YORGANCIOĞLU</a>  
+        <a href="#" class="logo">ALİ BAHA YORGANCIOĞLU</a>  
         <div class="nav-right">
             <div class="links">
                 <a href="#about" data-lang="nav-about">About</a>
+                <a href="#skills" data-lang="nav-skills">Skills</a>
                 <a href="#work" data-lang="nav-work">Work</a>
+                <a href="#experience" data-lang="nav-experience">Experience</a>
+                <a href="#education" data-lang="nav-education">Education</a>
                 <a href="#contact" data-lang="nav-contact">Contact</a>
             </div>
             <div class="controls">
-                <button id="theme-switch" class="control-btn">☀</button>
-                <button id="lang-switch" class="control-btn">TR</button>
+                <button id="theme-switch" class="control-btn" aria-label="Toggle theme">☀</button>
+                <button id="lang-switch" class="control-btn" aria-label="Switch language">TR</button>
             </div>
         </div>
     </nav>
 
+    <!-- Hero -->
     <header class="hero">
         <h1>
             <span data-lang="hero-line1">Software</span>
             <span data-lang="hero-line2">Developer</span>
         </h1>
-        <p class="subtitle" data-lang="hero-sub">Web Design and Coding student at Atatürk University. Building Modern, responsive and user friendly websites.</p>
-        <p class="hero-meta" data-lang="hero-meta">BASED IN TURKEY</p>
-        </header>
+        <p class="subtitle" data-lang="hero-sub">Software Developer architecting scalable web applications and SaaS platforms with Next.js, Python FastAPI, and PostgreSQL.</p>
+        <p class="hero-meta" data-lang="hero-meta">BASED IN TURKEY · OPEN TO OPPORTUNITIES</p>
+    </header>
 
-        <section id="about" class="projects-section">
+    <!-- About -->
+    <section id="about" class="projects-section">
         <div class="about-inner">
             <h2 class="section-title reveal" data-lang="about-title">About</h2>
-            <p class="about-lead reveal" data-lang="about-lead">I design and build interfaces that are clear, fast and enjoyable to use. I very care about typography, motion and the small details.</p>
-            <p class="avout-body reveal" data-lang="about-body">Open to freelance and full time opportunities.</p>
-            <div class="skills reveal">
-                <span class="skills-label" data-lang="skills-label">I work with</span>
+            <p class="about-lead reveal" data-lang="about-lead">Software Developer focused on building scalable web applications and SaaS platforms. Highly proficient in modern ecosystems including Next.js, Python FastAPI, and PostgreSQL.</p>
+            <p class="about-body reveal" data-lang="about-body">Adept at integrating advanced AI tooling into development pipelines to accelerate code generation and optimize architecture. Strong advocate for modern UI and UX principles, consistently bridging the gap between robust backend performance and seamless, aesthetically driven user experiences.</p>
+        </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills" class="projects-section">
+        <h2 class="section-title reveal" data-lang="skills-title">Technical Stack</h2>
+        <p class="section-intro reveal" data-lang="skills-intro">Categorized technologies, frameworks, and architectural tooling applied in production.</p>
+
+        <div class="skills-grid reveal">
+            <!-- Frontend -->
+            <div class="skills-category">
+                <h3 class="skills-cat-title" data-lang="skills-cat-frontend">Frontend Architecture</h3>
                 <div class="skills-pills">
-                    <span>Python</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+                    <span>Next.js App Router</span>
+                    <span>React.js</span>
+                    <span>TypeScript</span>
+                    <span>JavaScript ES6+</span>
+                    <span>Vue.js</span>
+                    <span>Tailwind CSS</span>
+                    <span>HTML5, CSS3</span>
+                    <span>Responsive Architecture</span>
+                </div>
+            </div>
+
+            <!-- Backend & Database -->
+            <div class="skills-category">
+                <h3 class="skills-cat-title" data-lang="skills-cat-backend">Backend & Database</h3>
+                <div class="skills-pills">
+                    <span>Python 3.12+ FastAPI</span>
+                    <span>Pydantic v2</span>
+                    <span>Supabase</span>
+                    <span>PostgreSQL RLS</span>
+                    <span>PGMQ Message Queue</span>
+                    <span>Node.js</span>
+                    <span>C#</span>
+                    <span>Auth.js v5</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+
+            <!-- Cloud, DevOps & Tools -->
+            <div class="skills-category">
+                <h3 class="skills-cat-title" data-lang="skills-cat-cloud">Cloud, DevOps & Tools</h3>
+                <div class="skills-pills">
+                    <span>Vercel</span>
+                    <span>Render</span>
+                    <span>Docker</span>
+                    <span>Git GitHub</span>
+                    <span>Microsoft Azure</span>
+                    <span>VS Code</span>
+                    <span>Advanced AI Tooling</span>
+                </div>
+            </div>
+
+            <!-- Design & UI UX -->
+            <div class="skills-category">
+                <h3 class="skills-cat-title" data-lang="skills-cat-design">Design & UI UX Systems</h3>
+                <div class="skills-pills">
+                    <span>Figma</span>
+                    <span>Glassmorphism Design Systems</span>
+                    <span>Micro interactions</span>
+                    <span>Advanced Typography</span>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Featured Work -->
     <section id="work" class="projects-section">
-        <h2 class="section-title reveal" data-lang="section-work">Projects</h2>
-        <p class="section-intro reveal" data-lang="section-intro">A selection of projects I've worked on.</p>
+        <h2 class="section-title reveal" data-lang="section-work">Featured Work</h2>
+        <p class="section-intro reveal" data-lang="section-intro">Production ready software and SaaS platforms engineered with modern web architecture.</p>
 
         <div class="projects-grid">
-            <button class="project-card reveal" data-project-id="orion" style="--delay: 0">
+            <!-- Project 1: Spot2TubeSync -->
+            <button class="project-card reveal" data-project-id="spot2tube" style="--delay: 0">
                 <div class="project-card-content">
-                    <span class="project-card-year">2026</span>
-                    <h3 class="project-card-title">Orion One</h3>
-                    <p class="project-card-desc" data-lang="proj-1-desc">High performance Enterprise Cloud Intelligence Hub featuring real time telemetry.</p>
+                    <div class="card-meta-top">
+                        <span class="project-card-year">2026</span>
+                        <span class="project-card-badge" data-lang="proj-spot2tube-badge">SaaS Platform</span>
+                    </div>
+                    <h3 class="project-card-title">Spot2TubeSync</h3>
+                    <p class="project-card-desc" data-lang="proj-spot2tube-desc">Asynchronous SaaS platform migrating Spotify playlists directly to YouTube Music with live WebSocket telemetry and Postgres queueing.</p>
                     <div class="card-footer">
-                        <span class="project-card-tags">JavaScript · TypeScript</span>
-                        <span class="project-card-link"><span data-lang="view-project">View project →</span></span>
+                        <span class="project-card-tags">Next.js · FastAPI · Supabase · PGMQ</span>
+                        <span class="project-card-link"><span data-lang="view-project">View project details →</span></span>
                     </div>
                 </div>
+            </button>
+
+            <!-- Project 2: alibahayorgancioglu.com -->
+            <button class="project-card reveal" data-project-id="portfolio" style="--delay: 1">
+                <div class="project-card-content">
+                    <div class="card-meta-top">
+                        <span class="project-card-year">2026</span>
+                        <span class="project-card-badge" data-lang="proj-portfolio-badge">Personal Portfolio</span>
+                    </div>
+                    <h3 class="project-card-title">alibahayorgancioglu.com</h3>
+                    <p class="project-card-desc" data-lang="proj-portfolio-desc">Personal software developer portfolio engineered with semantic HTML5, pure JavaScript, smooth Lenis scrolling, and dynamic dual language localization.</p>
+                    <div class="card-footer">
+                        <span class="project-card-tags">HTML5 · CSS3 · Vanilla JS · Lenis</span>
+                        <span class="project-card-link"><span data-lang="view-project">View project details →</span></span>
+                    </div>
+                </div>
+            </button>
+        </div>
     </section>
 
+    <!-- Experience -->
+    <section id="experience" class="projects-section">
+        <h2 class="section-title reveal" data-lang="exp-title">Experience</h2>
+        <p class="section-intro reveal" data-lang="exp-intro">Professional track record across production operations and IT infrastructure.</p>
+
+        <div class="timeline">
+            <!-- AGM Teknoloji -->
+            <div class="timeline-item reveal">
+                <div class="timeline-header">
+                    <h3 class="timeline-company">AGM Teknoloji</h3>
+                    <span class="timeline-period" data-lang="exp-agm-period">Oct 2025 – Feb 2026</span>
+                </div>
+                <p class="timeline-role" data-lang="exp-agm-role">Production and Operations Specialist</p>
+                <ul class="timeline-bullets">
+                    <li data-lang="exp-agm-b1">Managed technical operations for SMT and FATP production lines, optimizing hardware calibration and overall system efficiency.</li>
+                    <li data-lang="exp-agm-b2">Streamlined production workflows and supply chain coordination, successfully reducing operational bottlenecks in high precision environments.</li>
+                </ul>
+            </div>
+
+            <!-- Titanic Business Hotel Asia -->
+            <div class="timeline-item reveal">
+                <div class="timeline-header">
+                    <h3 class="timeline-company">Titanic Business Hotel Asia</h3>
+                    <span class="timeline-period" data-lang="exp-titanic-period">Jun 2021 – Aug 2022</span>
+                </div>
+                <p class="timeline-role" data-lang="exp-titanic-role">Information Technology Intern</p>
+                <ul class="timeline-bullets">
+                    <li data-lang="exp-titanic-b1">Maintained LAN and WLAN network monitoring and implemented cybersecurity measures for corporate and guest networks.</li>
+                    <li data-lang="exp-titanic-b2">Managed Property Management Systems and resolved hardware, software, and connectivity issues to ensure seamless daily operations.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="projects-section">
+        <h2 class="section-title reveal" data-lang="edu-title">Education</h2>
+        <p class="section-intro reveal" data-lang="edu-intro">Academic foundations in software engineering and artificial intelligence.</p>
+
+        <div class="education-grid">
+            <!-- Anadolu University -->
+            <div class="education-card reveal">
+                <span class="education-period" data-lang="edu-anadolu-period">2026 – Present</span>
+                <h3 class="education-school" data-lang="edu-anadolu-school">Anadolu University</h3>
+                <h4 class="education-degree" data-lang="edu-anadolu-degree">Associate Degree in Artificial Intelligence Supported Coding</h4>
+                <p class="education-desc" data-lang="edu-anadolu-desc">Focusing on algorithmic problem solving, modern AI integration pipelines, machine learning foundations, and advanced coding methodologies.</p>
+            </div>
+
+            <!-- Atatürk University -->
+            <div class="education-card reveal">
+                <span class="education-period" data-lang="edu-ataturk-period">2023 – 2026</span>
+                <h3 class="education-school" data-lang="edu-ataturk-school">Atatürk University</h3>
+                <h4 class="education-degree" data-lang="edu-ataturk-degree">Associate Degree in Web Design and Coding</h4>
+                <p class="education-desc" data-lang="edu-ataturk-desc">Curriculum covering full stack web architectures, UI and UX principles, modern JavaScript, database management, and responsive frontend systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
     <footer id="contact" class="contact">
         <div class="contact-inner">
             <p class="contact-label reveal" data-lang="contact-label">Get in touch</p>
+            <p class="contact-sub reveal" data-lang="contact-sub">Open to full time engineering roles and high impact software collaborations.</p>
             <a href="mailto:alibahabys@gmail.com" class="contact-email reveal">alibahabys@gmail.com</a>
             <div class="contact-divider reveal"></div>
             <nav class="contact-links">
@@ -80,26 +227,38 @@
         </div>
     </footer>
 
-    <!-- project modal -->
-     <div id="project-modal" class="project-modal">
+    <!-- Project Modal -->
+    <div id="project-modal" class="project-modal" role="dialog" aria-modal="true" aria-hidden="true" data-lenis-prevent>
         <div class="modal-overlay"></div>
-        <div class="modal-content">
-            <button class="modal-close" aria-label="Close modal">x</button>
+        <div class="modal-content" data-lenis-prevent>
+            <button class="modal-close" aria-label="Close modal">&times;</button>
             <div class="modal-inner">
                 <div class="modal-images">
                     <div class="image-gallery">
-                        <img id="modal-featured-image" src="" alt="Project screenshot" class="featured-image">
+                        <img id="modal-featured-image" src="" alt="Spot2TubeSync Production Dashboard and Transfer Flow" class="featured-image">
                     </div>
                 </div>
                 <div class="modal-info">
+                    <span id="modal-badge" class="modal-badge"></span>
                     <h2 id="modal-title" class="modal-title"></h2>
                     <p id="modal-description" class="modal-description"></p>
+                    
+                    <div class="modal-architecture-wrap">
+                        <h4 id="modal-arch-title" class="modal-section-title"></h4>
+                        <ul id="modal-architecture" class="modal-architecture-list"></ul>
+                    </div>
+
                     <div class="modal-tags" id="modal-tags"></div>
-                    <a id="modal-link" href="" target="_blank" rel="noopener" class="modal-github-btn">View on GitHub →</a>
+                    <div class="modal-actions">
+                        <a id="modal-link" href="" target="_blank" rel="noopener" class="modal-github-btn">View on GitHub →</a>
+                    </div>
                 </div>
             </div>
-     </div>
+        </div>
+    </div>
 
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
